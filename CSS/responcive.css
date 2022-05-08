@@ -1,0 +1,149 @@
+@media screen and (max-width: 1100px) {
+    .container{
+        max-width: 1400px;
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .heading-section .headline h2{
+        font-size: 45px;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 989px) {
+    .container{
+        max-width: 1400px;
+        padding: 0 20px;
+    }
+    .card-space{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .side-marque .para{
+        height: 225px;
+    }
+    .carousel-section,
+    .bannar-1{
+        width: 100%;
+    }
+    .bongo-bondhu,
+    .navbar-section .search-box{
+        display: none;
+    }
+    .navbar-section .navbar{
+        background: green;
+        padding: 18px 0;
+    }
+    .navbar-section button {
+        font-size: 14px;
+        position: absolute;
+        right: 5px;
+        top: 3px;
+        height: 30px;
+        background: green;
+        color: #fff;
+        z-index: 9999;
+        transition: .3s;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: #fff;
+      }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .navbar-section button:hover {
+        background: rgb(0, 0, 0);
+        border: 2px solid #fff;
+        color: transparent;
+    }
+    .navbar-light .navbar-toggler-icon {
+        background-image:url(../IMG/Menu-Icon.png);
+    }
+    .navbar-section .navbar-nav .nav-link{
+        text-align: center !important;
+        color: cornsilk !important;
+        text-shadow: 0px 1px 20px rgba(0,0,0,0.5);
+    }
+    .navbar-section .navbar-nav .nav-link:hover{
+        color: #fff !important;
+    }
+    .left-body-section .principal-text h2 {
+        font-size: 22px;
+        color: green;
+    }
+    .sub-online-title{
+        text-align: center;  
+    }
+
+}
+@media screen and (max-width: 800px) {
+    .col-full-width{
+        width: 100%;
+    }
+    .bdsheba-image-box{
+        margin: 8px auto;
+    }
+    .bdsheba-title{
+        text-align: center;
+    }
+    .bdsheba-col {
+        padding-top: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .headline-text{
+        display: none;
+    }
+    .heading-section .headline .logo-pic {
+        width: 220px;
+        margin: 5px auto;
+    }
+    .headline-logo{
+        width: 100%;
+    }
+    .body_section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .body_section .left-side-section{
+        width: 100%;
+        order: 2;
+    }
+    .body_section .right-body-section{
+        width: 100%;
+        order: 1;
+    }
+    .sub-online-title,
+    .bdsheba-title{
+        text-align: left;  
+    }
+    .futter-box{
+        padding-top: 20px;
+    }
+    .text-end {
+        text-align: center;
+      }
+    .end-futter p {
+        padding-top: 3px !important;
+        color: #fff;
+        font-size: 14px;
+        margin-bottom: 0;
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 640px) {
+    .container{
+        max-width: 1400px;
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 580px) {
+
+
+}
+@media screen and (max-width: 520px) {
+
+
+}
